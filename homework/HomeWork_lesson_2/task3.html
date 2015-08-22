@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+	<title>task3</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<form action="#action">
+		<label for="name">Name</label><br/>
+		<input type="text" name="name" id="name"/><br/>
+		<label for="email">Email</label><br/>
+		<input type="email" name="email" id="email" /><br/><br/>
+
+		Sex<br/>
+		<input type="radio" name="sex" value="male">Male
+		<input type="radio" name="sex" value="female">Female<br/><br/>
+
+		Current status<br/>
+		<input type="checkbox" name="status" value="student">Student<br/>
+		<input type="checkbox" name="status" value="employed">Employed<br/>
+		<input type="checkbox" name="status" value="unemploed">Unemployed<br/><br/>
+
+		Month and Year of birth<br/>
+		<input type="month" name="month"><br/>
+		Month and Year of birth<br/>
+		<select name="month1">
+			<option value="month">Fabruary</option>
+			<option value="month">March</option>
+			<option value="month">April</option>
+		</select>
+		<select name="year">
+			<option value="year">2015</option>
+			<option value="year" selected="selected">2014</option>
+			<option value="year" label="2013"></option>
+		</select><br/><br/>
+
+		Scills and Technologies<br/>
+		<select multiple size="10">
+			<optgroup label="Tech skiils">
+				<optiom value="html">HTML</option>
+				<option value="css">CSS</option>
+				<option value="js">Java Script</option>
+				<option value="git">git</option>
+			</optgroup>
+			<optgroup label="Soft skills">
+				<option value="TM">Time managment</option>
+				<option value="Proact">Proactivity</option>
+				<option value="TW">Teamwork</option>
+				<option value="LS">Leadership</option>
+			</optgroup>
+		</select><br/><br/>
+
+		Photo<br/>
+		<input type="file" name="photo" valie="photo"><br/><br/>
+
+		Comments<br/>
+		<textarea rows="4" cols="25"></textarea><br/><br/>
+
+		<input type="submit" value="Save">
+		
+	</form>
+</body>
+</html>

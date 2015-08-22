@@ -1,0 +1,30 @@
+#menu {
+	background: #a64dff;
+	height: 39px;
+}
+.navi {
+	padding: 0;
+	margin: auto;
+	text-align: center;
+	width: 900px;
+	list-style: none;
+}
+
+.navi li a {
+	font-family: impact;
+	padding: 10px;
+	display: block;
+	cursor: pointer;
+	color: #fefefe;
+	text-decoration: none;
+}
+.navi li a:hover {
+	background: #eeeeee;
+	color: #a0a0a0;
+}
+#home, #news, #economics, #local, #sport, #culture, #travels {
+	float: left;
+}
+#more {
+	float: right;
+}
