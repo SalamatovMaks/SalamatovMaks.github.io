@@ -1,0 +1,36 @@
+div {
+	text-align: center;
+	width: 600px;
+	background: #fafafa;
+}
+ul {
+	padding: 0;
+}
+ul li {
+	margin: 4px;
+	display: inline-block;
+	list-style: none;
+}
+ul li a {
+	padding: 1px 5px;
+	display: block;
+	cursor: pointer;
+	text-decoration: none;
+	color:	#a239d3;
+}
+.numbers {
+	border: solid 1px #ececec;
+	border-radius: 6px;
+}
+.numbers a:hover {
+	border-radius: 6px;
+	background: #a239d3;
+	color: #ffffff;
+}
+.3dots a:hover {
+	background:#fafafa ;
+	color: #a239d3;
+}
+ul li a span {
+	vertical-align: top;
+}
