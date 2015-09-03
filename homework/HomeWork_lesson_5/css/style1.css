@@ -28,6 +28,8 @@
 	background: #eeeeee;
 	width: 900px;
 	position: absolute;
+	left: 0;
+	right: 0;
 	display: none;
 	text-align: left;
 	list-style: none;
