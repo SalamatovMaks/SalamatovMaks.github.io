@@ -61,7 +61,7 @@ h3 {
 	font-size: 18px;
 	font-weight: normal;
 }
-.pricing ul {
+.content ul {
 	padding: 0;
 	margin: 0 0 0 15px;
 	font-size: 15px;
@@ -69,19 +69,18 @@ h3 {
 	color: #888c94;
 	list-style: none;
 }
-.pricing ul li {
-	/*text-align: left;*/
+.content ul li {
 	width: 255px;
 	padding: 11px 0 11px 5px;
 	margin-bottom: 2px;
 }
-.pricing ul li:nth-child(odd) {
+.content ul li:nth-child(odd) {
 	background: #edf5fd;
 }
-.pricing ul li:nth-child(even) {
+.content ul li:nth-child(even) {
 	background: #f5f5f6;
 }
-.pricing ul li:before {
+.content ul li:before {
 	padding: 14px 41px 0px 0px;
 	content: "";
 	background-image: url(../images/Shape.png);
@@ -102,4 +101,7 @@ h3 {
 	text-transform: uppercase;
 	display: block;
 	cursor: pointer;
+}
+.button:hover {
+	background-color: #b3560b;
 }
