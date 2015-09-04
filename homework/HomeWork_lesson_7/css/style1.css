@@ -1,0 +1,53 @@
+body {
+	width: 402px;
+	margin: auto;
+	text-align: justify;
+	line-height: 5px;
+	opacity: 0.8;
+	color: #555;
+	text-shadow: 0 0 6px #555;
+}
+p:after {
+	width: 100%;
+	content: "";
+	display: inline-block;
+}
+.uline {
+	border-bottom: 1px solid #ffcccc;
+}
+.sight01 {
+	font-size: 8em;
+}
+.sight02 {
+	font-size: 7em;
+}
+.sight03 {
+	font-size: 6em;
+}
+.sight04 {
+	font-size: 5em;
+}
+.sight05 {
+	font-size: 4em;
+}
+.sight06 {
+	font-size: 3em;
+}
+.sight07 {
+	font-size: 2em;
+}
+.sight08 {
+	font-size: 1em;
+}
+.sight09 {
+	font-size: 0.9em;
+}
+.sight10 {
+	font-size: 0.6em;
+}
+.sight15 {
+	font-size: 0.4em;
+}
+.sight20 {
+	font-size: 0.2em;
+}
