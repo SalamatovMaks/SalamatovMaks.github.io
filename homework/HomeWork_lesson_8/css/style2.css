@@ -1,0 +1,24 @@
+.search_arrow {
+	position: relative;
+	width: 100%;
+	background-image: repeating-linear-gradient(to bottom, #ffcb53, #eaba4c);
+	padding: 4px 0 4px 4px;
+}
+.search_arrow:after {
+  position: absolute;
+  top: -27px;
+  right:0px;
+  content: '';
+  display: block;
+  border:53px solid #fff;
+  border-left:40px solid transparent;
+}
+input[type="search"] {
+	width: 91%;
+	height: 26px;
+}
+input[type="submit"] {
+	width: 69px;
+	height: 26px;
+	position: absolute;
+}
