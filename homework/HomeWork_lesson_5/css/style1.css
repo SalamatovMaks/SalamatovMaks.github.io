@@ -1,4 +1,9 @@
+body {
+	margin: 0;
+	padding: 0;
+}
 #menu {
+	position: relative; 
 	background: #1aa4ff;
 }
 .navi {
@@ -9,7 +14,6 @@
 	list-style: none;
 }
 .navi li {
-	position: relative;
 	display: inline-block;
 }
 .navi li a {
@@ -25,13 +29,15 @@
 	color: #a0a0a0;
 }
 .undermenu {
+	margin: 0 auto;
 	background: #eeeeee;
-	width: 900px;
+	background-size: cover;
+	width: 100%;
 	position: absolute;
 	left: 0;
 	right: 0;
 	display: none;
-	text-align: left;
+	text-align: center;
 	list-style: none;
 }
 .undermenu li {
