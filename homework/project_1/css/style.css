@@ -2,7 +2,6 @@
 	outline: none;
 }
 body {
-	font-size: 0;
 	margin: 0;
 	width: 100%;
 	background: #fff;
@@ -209,6 +208,7 @@ h2 {
 	width: 1023px;
 }
 .pricing_title {
+	margin: 0;
 	text-align: center;
 	font-family: "Trebuchet MS", sans-serif;
 	font-weight: 700;
