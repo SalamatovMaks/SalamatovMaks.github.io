@@ -59,6 +59,7 @@ header a {
 	padding: 0;
 	width: 100%;
 	height: 584px;
+	background-color: #3070a8;
 	background: url(../images/baner.png) no-repeat center;
 	background-size: cover;
 }
@@ -163,6 +164,7 @@ h2 {
 .about {
 	margin: 282px 0 0 0;
 	height: 577px;
+	background-color: #212528;
 	background: url(../images/bg_about.png) no-repeat center;
 	background-size: cover;
 }
@@ -214,4 +216,190 @@ h2 {
 	font-weight: 700;
 	font-size: 30px;
 	color: #41525c;
+}
+.pricing_1 {
+	background: #fff;
+	width: 288px;
+	border-radius: 5px;
+	border: 1px solid;
+	border-color: #e8eaec;
+}
+.pricing_2 {
+	background: #fff;
+	width: 288px;
+	border: 4px solid;
+	border-color: #ee8115;
+	border-radius: 5px;
+	box-shadow: 0 0 13px #0874b2;
+}
+.pricing_3 {
+	background: #fff;
+	width: 288px;
+	border-radius: 5px;
+	border: 1px solid;
+	border-color: #e8eaec;
+}
+.pricing_header_1 {
+	margin: 0;
+	width: 288px;
+	background: #2bc2d5;
+	padding-top: 28px;
+	padding-bottom: 28px;
+	text-align: center;
+	font-size: 24px;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: bold;
+	font-family: "Futura MD BT", sans-serif;
+}
+.pricing_header_2 {
+	margin: 0;
+	width: 288px;
+	background: #ee8115;
+	padding-top: 28px;
+	padding-bottom: 28px;
+	text-align: center;
+	font-size: 24px;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: bold;
+	font-family: "Futura MD BT", sans-serif;
+}
+.pricing_header_3 {
+	margin: 0;
+	width: 288px;
+	background: #00b89a;
+	padding-top: 28px;
+	padding-bottom: 28px;
+	text-align: center;
+	font-size: 24px;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: bold;
+	font-family: "Futura MD BT", sans-serif;
+}
+.content h3 {
+	margin: 0;
+	width: 288px;
+	padding: 24px 0;
+	text-transform: uppercase;
+	font-size: 24px;
+	text-align: center;
+	color: #3f4042;
+	font-weight: normal;
+	font-family: "Futura MD BT", sans-serif;
+}
+.price {
+	font-family: "Futura MD BT", sans-serif;
+	position: relative;
+	left: 15px;
+	margin: 0;
+	text-align: center;
+	font-size: 72px;
+	font-weight: bold;
+	padding-bottom: 40px;
+	color: #35495a;
+
+}
+.price:before {
+	position: relative;
+	top: -38px;
+	left: 3px;
+	right: 0;
+	content: "$";
+	font-size: 36px;
+	font-weight: normal;
+}
+.price:after {
+	position: relative;
+	content: "Monthly";
+	font-size: 18px;
+	font-weight: normal;
+}
+.content ul {
+	padding: 14px;
+	font-family: Calibri, sans-serif;
+	font-weight: 700;
+	font-size: 15px;
+	color: #888c94;
+}
+.content ul li {
+	list-style: none;
+	width: 255px;
+	padding: 11px 0 11px 5px;
+	margin-bottom: 2px;
+}
+.content ul li:nth-child(odd) {
+	background: #edf5fd;
+}
+.content ul li:nth-child(even) {
+	background: #f5f5f6;
+}
+.content ul li:before {
+	padding: 14px 41px 0px 0px;
+	content: "";
+	background-image: url(../images/Shape.png);
+}
+.pricing_button_1 {
+	margin: 18px auto 30px;
+	background-color: #3070a8;
+	border-radius: 5px;
+	padding: 14px 0px;
+	text-align: center;
+	width: 250px;
+	box-shadow: 0 3px 0 #13426b;  
+}
+.pricing_button_1 a {
+	font-family: "Open Sans", sans-serif;
+	color: #fff;
+	font-weight: 600;
+	text-decoration: none;
+	text-transform: uppercase;
+	display: block;
+	cursor: pointer;
+}
+.pricing_button_1:hover {
+	background-color: #13426b;
+}
+.pricing_button_2 {
+	margin: 18px auto 30px;
+	background-color: #ee8129;
+	border-radius: 5px;
+	padding: 14px 0px;
+	text-align: center;
+	width: 250px;
+	box-shadow: 0 3px 0 #b3560b;  
+}
+.pricing_button_2 a {
+	font-family: "Open Sans", sans-serif;
+	color: #fff;
+	font-weight: 600;
+	text-decoration: none;
+	text-transform: uppercase;
+	display: block;
+	cursor: pointer;
+}
+.pricing_button_2:hover {
+	background-color: #b3560b;
+}
+.pricing_button_3 {
+	margin: 18px auto 30px;
+	background-color: #3070a8;
+	border-radius: 5px;
+	padding: 14px 0px;
+	text-align: center;
+	width: 250px;
+	box-shadow: 0 3px 0 #13426b;  
+}
+.pricing_button_3 a {
+	font-family: "Open Sans", sans-serif;
+	color: #fff;
+	font-weight: 600;
+	text-decoration: none;
+	text-transform: uppercase;
+	display: block;
+	cursor: pointer;
+}
+.pricing_button_3:hover {
+	background-color: #13426b;
 }
