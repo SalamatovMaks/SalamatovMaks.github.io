@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+	<meta charst="utf-8">
+	<title>task_2</title>
+</head>
+<body>
+	<script type="text/javascript">
+
+	outer:
+		for (var i = 2; i < 10; i++) {
+			for (var j = 2; j < i; j++) {
+			if(i % j == 0) continue outer;
+		}
+			alert( i );
+		}
+
+
+
+	</script>
+</body>
+</html>

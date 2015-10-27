@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+	<title>task_3</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<script type="text/javascript">
+
+		var login = prompt ('Введите Ваш логин','');
+
+			if (login == 'admin') {
+				var password = prompt ('Введите ваш пароль');
+
+				if (password == 'passw0rd') {
+					alert ('Welcome home!');
+				} else if (password == null) {
+					alert ('Canceled');
+				} else {
+					alert ('Wrong password!');
+				}
+			} else if (login == null) {
+				alert ('Canceled');
+			} else {
+				alert ('Access denied')
+			}
+
+	</script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>taks_5</title>
+</head>
+<body>
+	<script type="text/javascript">
+
+		function chessboard(size) {
+			for  ( var i=0; i < size; i++) {
+				var line = '';
+
+				for (var j=0; j < size; j++) {
+					if (j % 2 === 0) {
+						line += (i%2 === 0) ? '#':' ';
+					} else {
+						line += (i%2 === 0) ? ' ':'#';
+					}
+				}
+				console.log (line);
+			}	
+			
+		}
+		chessboard(8);
+
+	</script>
+</body>
+</html>

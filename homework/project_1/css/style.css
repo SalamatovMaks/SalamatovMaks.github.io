@@ -60,7 +60,7 @@ header a {
 	width: 100%;
 	height: 584px;
 	background-color: #3070a8;
-	background: url(../images/baner.png) no-repeat center;
+	background: url(../images/Baner.png) no-repeat center;
 	background-size: cover;
 }
 .baner_content {
@@ -207,10 +207,11 @@ h2 {
 .pricing {
 	margin: 0 auto;
 	padding: 0;
-	width: 1023px;
+	width: 872px;
 }
 .pricing_title {
 	margin: 0;
+	padding: 75px 0 56px 0;
 	text-align: center;
 	font-family: "Trebuchet MS", sans-serif;
 	font-weight: 700;
@@ -218,14 +219,18 @@ h2 {
 	color: #41525c;
 }
 .pricing_1 {
+	float: left;
+	margin-top: 15px;
 	background: #fff;
 	width: 288px;
 	border-radius: 5px;
 	border: 1px solid;
 	border-color: #e8eaec;
+	float: left;
 }
 .pricing_2 {
-	background: #fff;
+	float: left;
+    background: #fff;
 	width: 288px;
 	border: 4px solid;
 	border-color: #ee8115;
@@ -233,7 +238,11 @@ h2 {
 	box-shadow: 0 0 13px #0874b2;
 }
 .pricing_3 {
-	background: #fff;
+	float: right;
+	position: relative;
+	top: -538px;
+	z-index: -1;
+    background: #fff;
 	width: 288px;
 	border-radius: 5px;
 	border: 1px solid;
@@ -243,8 +252,8 @@ h2 {
 	margin: 0;
 	width: 288px;
 	background: #2bc2d5;
-	padding-top: 28px;
-	padding-bottom: 28px;
+	padding-top: 26px;
+	padding-bottom: 26px;
 	text-align: center;
 	font-size: 24px;
 	text-transform: uppercase;
@@ -256,8 +265,8 @@ h2 {
 	margin: 0;
 	width: 288px;
 	background: #ee8115;
-	padding-top: 28px;
-	padding-bottom: 28px;
+	padding-top: 32px;
+	padding-bottom: 32px;
 	text-align: center;
 	font-size: 24px;
 	text-transform: uppercase;
@@ -269,8 +278,8 @@ h2 {
 	margin: 0;
 	width: 288px;
 	background: #00b89a;
-	padding-top: 28px;
-	padding-bottom: 28px;
+	padding-top: 26px;
+	padding-bottom: 26px;
 	text-align: center;
 	font-size: 24px;
 	text-transform: uppercase;
@@ -281,7 +290,7 @@ h2 {
 .content h3 {
 	margin: 0;
 	width: 288px;
-	padding: 24px 0;
+	padding: 23px 0;
 	text-transform: uppercase;
 	font-size: 24px;
 	text-align: center;
@@ -297,7 +306,7 @@ h2 {
 	text-align: center;
 	font-size: 72px;
 	font-weight: bold;
-	padding-bottom: 40px;
+	padding-bottom: 27px;
 	color: #35495a;
 
 }
@@ -317,7 +326,8 @@ h2 {
 	font-weight: normal;
 }
 .content ul {
-	padding: 14px;
+	margin: 0;
+	padding: 0 14px;
 	font-family: Calibri, sans-serif;
 	font-weight: 700;
 	font-size: 15px;
@@ -341,7 +351,7 @@ h2 {
 	background-image: url(../images/Shape.png);
 }
 .pricing_button_1 {
-	margin: 18px auto 30px;
+	margin: 18px auto 20px;
 	background-color: #3070a8;
 	border-radius: 5px;
 	padding: 14px 0px;
@@ -383,7 +393,7 @@ h2 {
 	background-color: #b3560b;
 }
 .pricing_button_3 {
-	margin: 18px auto 30px;
+	margin: 18px auto 20px;
 	background-color: #3070a8;
 	border-radius: 5px;
 	padding: 14px 0px;
@@ -402,4 +412,28 @@ h2 {
 }
 .pricing_button_3:hover {
 	background-color: #13426b;
+}
+.testimonials {
+	position: relative;
+	top: 629px;
+	height: 315px;
+	background-color: #3070a8;
+	background: url(../images/testimonials_bg.png) no-repeat center;
+	background-size: cover;
+}
+.testimonials_header {
+	position: absolute;
+	left: 510px;
+	top: 58px;
+	padding: 0;
+	text-align: center;
+	font-size: 40px;
+	color: #ee8129;
+	font-family: "Futura BK BT" sans-serif;
+	text-transform: uppercase;
+
+}
+.testimonials_header_allocation {
+	color: #3170a8;
+	font-weight: 1000;
 }
