@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>task_2</title>
+</head>
+<body>
+	<script type="text/javascript">
+
+		function checkSpam(text) {
+  			var lowCase = text.toLowerCase();
+ 			if ( lowCase.indexOf('sex') >= 0 || lowCase.indexOf('spam') >= 0 ) {
+	   				 return true;
+	  			} else {
+				    return false;
+				}
+			}
+		console.log(checkSpam('get new Sex videos')); // true
+		console.log(checkSpam('[SPAM] How to earn fast money?')); // true
+		console.log(checkSpam('New PSD template')); // false
+
+	</script>
+</body>
+</html>
