@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>task_1</title>
+</head>
+<body>
+	<script type="text/javascript">
+
+		var tasksCompleted = {
+			'Anna': 29,
+			'Serg': 35,
+			'Elena': 1,
+			'Anton': 99
+		};
+
+		var tasks = 0, user = '';
+			for (var userName in tasksCompleted) {
+		  		if (tasks < tasksCompleted[userName]) {
+		    		tasks = tasksCompleted[userName];
+		    		user = userName;
+		  		}
+			}
+		console.log (user);
+
+	</script>
+</body>
+</html>

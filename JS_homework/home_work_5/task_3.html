@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>task_3</title>
+</head>
+<body>
+	<script type="text/javascript">
+
+		var numbers = [];
+
+			while (true) {
+
+  				var value = prompt("Введите число", 0);
+
+  				if (value === "" || value === null || isNaN(value)) break;
+
+  				numbers.push(+value);
+			}
+
+		var sum = 0;
+		for (var i = 0; i < numbers.length; i++) {
+  			sum += numbers[i];
+		}
+
+		console.log( sum );
+
+	</script>
+</body>
+</html>
