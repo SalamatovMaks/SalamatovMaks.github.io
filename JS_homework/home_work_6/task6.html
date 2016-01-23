@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>taks6</title>
+</head>
+<body>
+	<script type="text/javascript">
+
+		var strings = ['кришна', 'кришна', 'харе', 'харе', 'харе', 'харе', 'кришна', 'кришна', '8-()' ];
+		function unique(arr) {
+   			var array = [];
+
+		    next:
+		        for (var i = 0; i < arr.length; i++) {
+		            var str = arr[i];
+		            for (var j = 0; j < array.length; j++) {
+		                if (array[j] == str) continue next;
+		            }
+		            array.push(str);
+		        }
+
+		    return array;
+		}
+		console.log( unique(strings) ); // кришна, харе, 8-()
+
+	</script>
+</body>
+</html>

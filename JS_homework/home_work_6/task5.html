@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>task5</title>
+</head>
+<body>
+	<script type="text/javascript">
+
+		function isPal(string) {
+			var str = string.toUpperCase().split('').join('');
+			var reverseStr = '';
+			  
+			for (var i = str.length-1; i >= 0; i--);{
+			    reverseStr += str[i];
+			}
+			  
+			if (str == reverseStr) {
+			    return true;
+			} else {
+			    return false;
+			 }
+			    
+			  
+		}
+
+		console.log(isPal('Anna')); // true
+		console.log(isPal('А роза упала на лапу Азора')); //true
+		console.log(isPal('Вася')); //false
+		console.log(isPal('12321')); //true
+		console.log(isPal('123212')); //false
+
+	</script>
+</body>
+</html>

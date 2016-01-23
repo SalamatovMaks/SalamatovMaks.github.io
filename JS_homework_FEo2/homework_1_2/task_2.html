@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>task_2</title>
+</head>
+<body>
+	<script type="text/javascript">
+
+		var names = [];
+
+		while(true) {
+  			var value = prompt('Введите имя');
+  
+			if (value === false || value === null) break;  
+  
+			names.push(value);
+		}
+
+		var user = prompt('Введите имя пользователя');
+
+		// for(var i = 0; i < names.length; i++) {
+		// 	if(user === names[i]) {
+		// 		alert(user + ', вы успешно вошли');
+		// 	} else {
+		// 		alert('Ошибка');
+		// 	}
+		// }
+
+		for(var key in names) {
+			if(user === names[key]) {
+				alert(user + ', вы успешно вошли');
+			} else {
+				alert('Ошибка');
+			}
+		}
+		
+	</script>
+</body>
+</html>
