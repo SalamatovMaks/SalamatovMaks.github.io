@@ -8,9 +8,17 @@ var app = {
 			element.setAttribute('type', params.inputType);
 		};
 
-		if (params.content){
+		if (params.content) {
 			element.innerHTML = params.content;
 		};
+
+		if (params.value) {
+			element.setAttribute('value', params.value);
+		}
+
+		if (params.className) {
+			element.className = params.className;
+		}
 
 		return element;
 	},
@@ -21,17 +29,30 @@ var app = {
 				tagName: 'h2',
 				content: 'Вопрос №' + (i + 1)
 			});
+			
+			body.appendChild(question);
+
+			for (var j = 0; j < answerNum; j++) {
+				var label = this.createElement({
+					tagName: 'label',
+					content: 'Ответ №' + (j + 1)
+				});
+
+				body.appendChild(label);
+
+				var checkbox = this.createElement({
+					tagName: 'input',
+					inputType: 'checkbox'		
+				});
+
+				label.insertAdjacentElement('afterBegin', checkbox);
+
+			};
+
 		};
 
-		for (var j = 0; j < answerNum; j++) {
-			var label = this.createElement({
-				tagName: 'label',
-				content: 'Ответ №' + (j + 1)
-			});
-		};
 
-		body.appendChild(question);
-		body.appendChild(label);
+
 	}
 }
 
@@ -42,10 +63,11 @@ var title = app.createElement({
 
 var button = app.createElement({
 	tagName: 'input',
-	inputType: 'submit'
+	inputType: 'submit',
+	value: 'Проверить мои результаты',
+	 className: 'btn-large'
 
 });
-
 
 var body = document.querySelector('body');
 
