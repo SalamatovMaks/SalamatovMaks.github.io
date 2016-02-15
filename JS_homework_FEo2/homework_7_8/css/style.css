@@ -1,3 +1,7 @@
+* {
+	margin: 0;
+	padding: 0;
+}
 .tabs {
 	margin: 0 auto;
 	width: 300px;
@@ -35,4 +39,47 @@
 }
 .tabs_content_selected {
 	display: block;
+}
+.form { 
+	margin:30px auto; 
+	width: 600px;
+	border: 2px solid #D7D0D0;
+	border-radius: 5px;
+}
+.form_wrapper {
+	width: 295px;
+	padding: 10px 0 10px 5px;
+	
+}
+.advise_wrapper {
+	width: 295px;
+	
+}
+.form_items {
+	/*float: left;*/
+	display: inline-block;
+}
+.form_field {
+	padding-bottom: 16px; 
+}
+.advice_item {
+	width: 205px;
+	margin-bottom: 8px;
+	padding: 5px 5px;
+	box-shadow: 0 0 7px #8F85D1;
+	font-size: 14px;
+	display: none;
+}
+.form_field_firstname {
+	margin-left: 30px;
+}
+.form_field_last_name {
+	margin-left: 32px;
+}
+.form_field_mail{
+	margin-left: 54px;
+}
+.button {
+	margin-left: 162px;
+    margin-bottom: 10px;
 }
