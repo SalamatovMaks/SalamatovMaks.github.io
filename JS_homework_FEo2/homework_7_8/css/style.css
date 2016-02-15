@@ -83,3 +83,18 @@
 	margin-left: 162px;
     margin-bottom: 10px;
 }
+.advice_item_1 {
+	position: fixed;
+	top: 315px;
+
+}
+.advice_item_2 {
+	position: fixed;
+	top: 351px;
+	
+}
+.advice_item_3 {
+	position: fixed;
+	top: 386px;
+	
+}

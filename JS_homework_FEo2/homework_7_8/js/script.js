@@ -20,19 +20,23 @@ $(function () {
 	
 	
 		$textArea.hover(
-			function() {
-				$advice.show();
-			}, 
-			function() {
-				$advice.hide();
-			});
-
+			   function() {
+			     var elNum = $textArea.index(this);
+			    $advice.eq(elNum).show(); 	
+			     
+			   }, 
+			   function() {
+			     var elNum = $textArea.index(this);
+			    $advice.eq(elNum).hide(); 
+			   });
+		
+	    
 	var $submit = $('.button')
 
 	$submit.on('click', function() {
 		$advice.show();
 	});
-	
+
 });
 
 
